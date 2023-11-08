@@ -2,15 +2,17 @@
   <div>
   <h1>lol</h1>
   
-  <mycomponent></mycomponent>
+  <mycomponent class="title"></mycomponent>
   <component3></component3>
+  <AppHero></AppHero>
   
   </div>
 </template>
 
 <script>
- import mycomponent from './components/mycomponent.vue'; 
+ import mycomponent from './components/apptitle.vue'; 
  import component3 from './components/component3.vue';
+ import AppHero from './components/AppHero.vue';
 
 export default {
  
@@ -22,10 +24,14 @@ export default {
   components: {
     mycomponent, 
     component3,
+    AppHero,
   },
 }
 </script>
 
 <style lang="css" scoped>
-
+ .title{
+  text-align: center;
+  font-size: 3em;
+ }
 </style>

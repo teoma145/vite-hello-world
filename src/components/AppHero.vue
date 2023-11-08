@@ -1,13 +1,12 @@
 <template>
-    <div class="container">
-     <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="">
+    <div>
+    <h1>CLICCA QUI</h1>
     </div>
 </template>
 
 <script>
-
 export default {
-    name:'component3',
+    name:'AppHero',
     setup () {
         
 
@@ -17,7 +16,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.container{
+ h1{
     text-align: center;
-}
+ }
 </style>
