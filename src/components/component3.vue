@@ -8,7 +8,7 @@
 
 export default {
     name:'component3',
-    setup () {
+    data () {
         
 
         return {}

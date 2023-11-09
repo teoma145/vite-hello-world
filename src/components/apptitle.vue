@@ -7,7 +7,7 @@
 <script>
 export default {
     name: 'apptitle',
-    setup () {
+    data () {
         
 
         return {}

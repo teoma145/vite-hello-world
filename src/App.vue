@@ -16,7 +16,7 @@
 
 export default {
  
-  setup () {
+  data () {
     
 
     return {}
